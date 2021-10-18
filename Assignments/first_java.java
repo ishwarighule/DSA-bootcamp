@@ -1,4 +1,4 @@
-// [Video Link](https://youtu.be/TAtrPoaJ7gc)
+[Video Link](https://youtu.be/TAtrPoaJ7gc)
 
 // Write Java programs for the following:
 
