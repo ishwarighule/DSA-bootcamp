@@ -180,4 +180,32 @@ public class Main
 
 // 7. To calculate Fibonacci Series up to n numbers.
 // 8. To find out whether the given String is Palindrome or not.
+             import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        String a,b="";
+        
+        System.out.println("Enter string");
+        
+        a = sc.nextLine();
+        int s= a.length();
+        
+        for(int i= s-1; i>=0; i--){
+            b= b+ a.charAt(i);
+        }
+        
+        if(a.equalsIgnoreCase(b)){
+             System.out.println("String is palindrome");
+        }
+        else{
+             System.out.println("String is not palindrome");
+        }
+        
+    }
+}
+
 // 9. To find Armstrong Number between two given number.
