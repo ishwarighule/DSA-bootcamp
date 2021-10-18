@@ -209,3 +209,27 @@ public class Main
 }
 
 // 9. To find Armstrong Number between two given number.
+            import java.util.Scanner;
+public class Main {
+   public static void main(String args[]){
+      int num, num2;
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the first number ::");
+      num1 = sc.nextInt();
+      System.out.println("Enter the second number ::");
+      num2 = sc.nextInt();
+
+      for (int i = num; i<num2; i++){
+         int c, r, sum = 0;
+         c = i;
+         while(c != 0) {
+            r= c % 10;
+            sum = sum + (r * r * r);
+            c = c / 10;
+         }
+         if(sum == i){
+            System.out.println(""+i+" is an Armstrong number.");
+         }
+      }
+   }
+}
