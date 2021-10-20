@@ -179,6 +179,35 @@ public class Main
 
 
 // 7. To calculate Fibonacci Series up to n numbers.
+             
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        
+        int n = sc.nextInt();
+        
+        int a=0;
+        int b=1;
+        int count=2;
+        
+        while(count <= n){
+            int temp=b;
+            b=b+a;
+            a=temp;
+            count++;
+            
+        }
+        System.out.println(b);
+       
+}}
+
+             
+             
+             
+             
 // 8. To find out whether the given String is Palindrome or not.
              import java.util.*;
 
